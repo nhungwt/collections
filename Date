@@ -1,0 +1,22 @@
+const getFirstDayOfMonth = (month, year) => {
+  return new Date(year, month, 1)
+}
+
+//=======================================================
+const getLastDayOfMonth = (month, year) => {
+  return new Date(year, month + 1, 0)
+}
+const month = 1;
+console.log(new Date(2025, month + 1, 0));
+>>>> Fri Feb 28 2025 00:00:00 GMT+0700 (Giờ Đông Dương)
+/*
+- __`month + 1`__: Chuyển sang tháng tiếp theo
+
+  - Nếu `month = 11` (December), `month + 1 = 12` → January của năm sau
+  - Nếu `month = 0` (January), `month + 1 = 1` → February
+
+- __`day = 0`__: Ngày 0 của tháng = __ngày cuối cùng của tháng trước đó__
+
+  - JavaScript tự động điều chỉnh: ngày 0 tháng 2 = ngày 31 tháng 1
+  - Đây là "overflow behavior" của Date object
+*/

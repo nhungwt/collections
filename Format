@@ -1,0 +1,10 @@
+/* Cố định độ dài của số hoặc string */
+const formatString = (str) => str.padStart(2, '0')
+console.log(formatString('5');
+// Expected output: "05"
+
+const formatNumber = (num) => num.toLocateString('en-US', { // chưa chạy được thành công
+  minimumIntegerDigits: 2,
+})
+console.log(formatNumber(1);
+// Expected output: "01"

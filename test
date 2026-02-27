@@ -1,3 +1,212 @@
-evvv
-
-fffff
+{
+  "message": "Retrieve successfully",
+  "code": 200,
+  "data": {
+    "DocType": "CHEETAH_REPORT_1.0.0",
+    "metadata": {
+      "report": {
+        "report_id": 287112,
+        "base_report_id": -1,
+        "type": "Single",
+        "title": "Integrated performance evaluation system",
+        "description": "SPG Report (On-chip / Smoothness / Memory)",
+        "owner": "ywook.kang",
+        "created": "2026-02-13T10:13:15+09:00",
+        "status": "Finished",
+        "be_report_id": 259269,
+        "plantest_id": -1,
+        "test_mode": false,
+        "custom_content": [
+          {
+            "tab_name": "Memory",
+            "html_path": "https://system.sec.samsung.net/cheetah/be/upload/custom_report/259269/836583bb-4e85-4d60-a526-887028fc7f9b_memory_report.html"
+          },
+          {
+            "tab_name": "On-chip",
+            "html_path": "https://system.sec.samsung.net/cheetah/be/upload/custom_report/259269/5c6d2380-9052-4eac-b865-bfb6bb8a1ac3_integrated_gatekeeping_report.html"
+          },
+          {
+            "tab_name": "Smoothness",
+            "html_path": "https://system.sec.samsung.net/cheetah/be/upload/custom_report/259269/bffd1d21-a27f-4fad-9200-4970777f2a1b_smoothness.html"
+          }
+        ]
+      },
+      "layout": {
+        "number_of_chart_line": 1
+      },
+      "test_summary": [
+        {
+          "verAOS": "B OS",
+          "verBin": "S948NKSU1AZAB_T3",
+          "qb_id": 105855621,
+          "typeBuild": "userdebug",
+          "typeBin": "Recommend",
+          "project": "SM-S948N",
+          "testEnv": "Normal",
+          "test_id": 460372,
+          "measured_result_id": 1204,
+          "device_id": 3658,
+          "package_names": ["[Private] perf_evaluation_scenario"]
+        }
+      ]
+    },
+    "views": [
+      {
+        "metadata": {
+          "title": "Summary report",
+          "chart_type": ["SIMPLE_TABLE"],
+          "options": {
+            "SIMPLE_TABLE": {}
+          },
+          "column_names": ["S948NKSU1AZAB_T3(105855621)_460372"],
+          "style": {
+            "PASS": {
+              "color": "green",
+              "backgroundColor": "white"
+            },
+            "FAIL": {
+              "color": "red",
+              "backgroundColor": "white"
+            },
+            "-": {
+              "color": "black",
+              "backgroundColor": "white"
+            }
+          }
+        },
+        "data": {
+          "rows": [
+            {
+              "name": "1",
+              "attr": {}
+            },
+            {
+              "name": "2",
+              "attr": {}
+            },
+            {
+              "name": "3",
+              "attr": {}
+            },
+            {
+              "name": "4",
+              "attr": {}
+            },
+            {
+              "name": "5",
+              "attr": {}
+            },
+            {
+              "name": "6",
+              "attr": {}
+            },
+            {
+              "name": "7",
+              "attr": {}
+            }
+          ],
+          "columns": [
+            {
+              "name": "S948NKSU1AZAB_T3(105855621)_460372",
+              "attr": {
+                "SubTitle": "Type"
+              },
+              "test_summary_id": 0,
+              "values": [
+                "Memory",
+                "On-Chip",
+                "Smoothness",
+                "Smoothness",
+                "Smoothness",
+                "Smoothness",
+                "Smoothness"
+              ]
+            },
+            {
+              "name": "S948NKSU1AZAB_T3(105855621)_460372",
+              "attr": {
+                "cell_style": [
+                  "PASS",
+                  "PASS",
+                  "FAIL",
+                  "FAIL",
+                  "FAIL",
+                  "FAIL",
+                  "FAIL"
+                ],
+                "SubTitle": "Result"
+              },
+              "test_summary_id": 0,
+              "values": [
+                "PASS",
+                "PASS",
+                "FAIL",
+                "FAIL",
+                "FAIL",
+                "FAIL",
+                "FAIL"
+              ],
+              "cell_style": [
+                "PASS",
+                "PASS",
+                "FAIL",
+                "FAIL",
+                "FAIL",
+                "FAIL",
+                "FAIL"
+              ]
+            },
+            {
+              "name": "S948NKSU1AZAB_T3(105855621)_460372",
+              "attr": {
+                "SubTitle": "Summary"
+              },
+              "test_summary_id": 0,
+              "values": [
+                "No issues detected",
+                "검출된 이슈가 없습니다.",
+                "Short jank 13.0",
+                "Long jank 15.0",
+                "Max peak height 26.1",
+                "Peak count 4.0",
+                "Jitter 64.0"
+              ]
+            },
+            {
+              "name": "S948NKSU1AZAB_T3(105855621)_460372",
+              "attr": {
+                "SubTitle": "edi_to_plmid"
+              },
+              "test_summary_id": 0,
+              "values": [
+                "",
+                "",
+                "",
+                "933074-0213-095918-395377",
+                "933074-0213-095919-186046",
+                "933074-0213-095919-892678",
+                ""
+              ]
+            },
+            {
+              "name": "S948NKSU1AZAB_T3(105855621)_460372",
+              "attr": {
+                "SubTitle": "Guide Link"
+              },
+              "test_summary_id": 0,
+              "values": [
+                "https://confluence-mx.sec.samsung.net/x/lvjBlg",
+                "https://confluence-mx.sec.samsung.net/x/kfjBlg",
+                "https://confluence-mx.sec.samsung.net/x/ivjBlg",
+                "https://confluence-mx.sec.samsung.net/x/ivjBlg",
+                "https://confluence-mx.sec.samsung.net/x/ivjBlg",
+                "https://confluence-mx.sec.samsung.net/x/ivjBlg",
+                "https://confluence-mx.sec.samsung.net/x/ivjBlg"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
